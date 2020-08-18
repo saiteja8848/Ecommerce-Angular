@@ -1,0 +1,23 @@
+.space{
+    flex:1;
+    justify-content: space-between;
+}
+.login>button{
+    margin:1rem;
+}
+.header{
+    height: 44px;
+}
+.notify{
+    display: flex;
+    margin-left:50%;
+    padding-left:10px;
+    padding-right:10px;
+}
+.space2{
+    margin:10px;
+    cursor: grab;
+}
+button{
+    color: black;
+}

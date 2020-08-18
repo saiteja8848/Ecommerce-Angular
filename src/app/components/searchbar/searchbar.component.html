@@ -1,0 +1,15 @@
+<mat-toolbar class="searchbar">
+    <div class="shoplist">
+        <button mat-raised-button [matMenuTriggerFor]="menu">
+            <mat-icon>shopping_bag</mat-icon>
+            Shop By Category
+        </button>
+        <mat-menu #menu="matMenu">
+            <button mat-menu-item>Electronics</button>
+            <button mat-menu-item>Clothing</button>
+            <button mat-menu-item>Toys</button>
+        </mat-menu>
+        <input type="text" placeholder="Search.." name="search2" [(ngModel)]="searchInput">
+        <button color="primary" mat-raised-button type="submit" (click)="search()">search</button>
+    </div>
+</mat-toolbar>

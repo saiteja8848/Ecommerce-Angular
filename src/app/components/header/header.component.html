@@ -1,0 +1,14 @@
+<mat-toolbar color="basic" class="header">
+    <span>Hi!</span>
+    <div class="login">
+        <button mat-raised-button (click)="openLogin()">Sign In</button>
+        <button mat-raised-button (click)="openRegister()">Register</button>
+    </div>
+    <div class="space"></div>
+    <div class="notify">
+        <a class="space2" (click)="myAccount()">MyAccount</a>
+        <mat-icon class="space2" matBadge="1" matBadgeColor="warn">notifications</mat-icon>
+        <mat-icon class="space2" routerLink="/cart"><a>shopping_cart</a>
+        </mat-icon>
+    </div>
+</mat-toolbar>

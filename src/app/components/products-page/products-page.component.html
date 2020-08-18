@@ -1,0 +1,74 @@
+<mat-toolbar color="primary">
+  <button mat-raised-button routerLink="/home">Back To Home</button>
+  <span class="spaceBetween"></span>
+  <button mat-raised-button routerLink="/cart">Cart</button>
+</mat-toolbar>
+
+<div class="h">
+  <h2 class="testing">
+    <span>H</span>
+    <span>a</span>
+    <span>p</span>
+    <span>p</span>
+    <span>y</span>
+    <span>&nbsp;</span>
+    <span>S</span>
+    <span>h</span>
+    <span>o</span>
+    <span>p</span>
+    <span>p</span>
+    <span>i</span>
+    <span>n</span>
+    <span>g</span>
+    <span>!</span>
+  </h2>
+</div>
+
+<div class="grid-container1">
+  <div class="grid-item item1">
+    <div class="item1">
+      <mat-card class="card1">
+        <mat-card-title> <button mat-raised-button color="primary">Category</button></mat-card-title>
+        <mat-list *ngFor="let category of categorys">
+          <button mat-button [matMenuTriggerFor]="main_menu">{{category.categoryName}}</button>
+          <mat-menu #main_menu="matMenu">
+            <ng-container *ngFor="let mainItem of category.subcategorys">
+              <button mat-menu-item [matMenuTriggerFor]="sub_menu">{{ mainItem.subCategoryName }}</button>
+              <mat-menu #sub_menu="matMenu">
+                <button *ngFor="let subItem of mainItem.products" mat-menu-item
+                  (click)="select(subItem.name)">{{ subItem.name }}</button>
+              </mat-menu>
+            </ng-container>
+          </mat-menu>
+        </mat-list>
+      </mat-card>
+    </div>
+  </div>
+
+
+  <div class="grid-item grid-container2" [style.visibility]="show ? 'hidden':'visible' ">
+    <div class="grid-item" *ngFor="let product of products" class="pictures">
+      <div>
+        <mat-card class="card2 myDiv">
+          <mat-card-header>
+            <mat-card-title>{{product.name}}</mat-card-title>
+          </mat-card-header>
+          <img mat-card-image src={{product.imageUrl}} alt="" class="picture zoomin frame">
+          <mat-card-content class="hide"><strong>Rs {{product.price}}</strong></mat-card-content>
+          <mat-card-actions>
+            <div class="counter hide">
+              <mat-icon class="decrementer" (click)="remove(product.productId)">remove</mat-icon>
+              <input type="text" placeholder={{product.counter}} size="1px" height="2px" class="value">
+              <mat-icon class="incrementer" (click)="add(product.productId)">add</mat-icon>
+            </div>
+            <button mat-raised-button color="primary" (click)="addToCart(product)" class="hide">
+              Add To Cart
+            </button>
+          </mat-card-actions>
+        </mat-card>
+      </div>
+    </div>
+  </div>
+
+
+  

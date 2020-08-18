@@ -1,0 +1,250 @@
+{
+  "categories": [
+    {
+      "categoryId": 1,
+      "categoryName": "Electronics",
+      "subCategory": [
+        {
+          "subCategoryId": 1,
+          "subCategoryName": "Mobiles",
+          "productList": [
+            {
+              "productId": 1,
+              "name": "Samsung",
+              "price": 26315.23,
+              "quatity": 6,
+              "imageUrl": "../../../assets/Samsung.jpg",
+              "counter": 0,
+              "clickStatus": false
+            },
+            {
+              "productId": 2,
+              "name": "IPhone",
+              "price": 65625.35,
+              "quatity": 51,
+              "imageUrl": "../../../assets/IPhone.jpg",
+              "counter": 0,
+              "clickStatus": false
+            }
+          ]
+        },
+        {
+          "subCategoryId": 2,
+          "subCategoryName": "Computers",
+          "productList": [
+            {
+              "productId": 3,
+              "name": "Mac Book Pro",
+              "price": 96512.32,
+              "quatity": 0,
+              "imageUrl": "../../../assets/MacBookPro.jpg",
+              "counter": 0,
+              "clickStatus": false
+            },
+            {
+              "productId": 4,
+              "name": "Dell",
+              "price": 59632,
+              "quatity": 32,
+              "imageUrl": "../../../assets/Dell.jpg",
+              "counter": 0,
+              "clickStatus": false
+            }
+          ]
+        },
+        {
+          "subCategoryId": 3,
+          "subCategoryName": "Home Appliances",
+          "productList": [
+            {
+              "productId": 5,
+              "name": "Heater",
+              "price": 200,
+              "quatity": 50,
+              "imageUrl": "../../../assets/Heater.jpg",
+              "counter": 0,
+              "clickStatus": false
+            },
+            {
+              "productId": 6,
+              "name": "Hair dryer",
+              "price": 315,
+              "quatity": 18,
+              "imageUrl": "../../assets/HairDyer.jpg",
+              "counter": 0,
+              "clickStatus": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "categoryId": 2,
+      "categoryName": "Fashion",
+      "subCategory": [
+        {
+          "subCategoryId": 4,
+          "subCategoryName": "Men's Fashion",
+          "productList": [
+            {
+              "productId": 7,
+              "name": "denim Shirt",
+              "price": 552.45,
+              "quatity": 20,
+              "imageUrl": "../../../assets/DenimJeans.jpeg",
+              "counter": 0,
+              "clickStatus": false
+            },
+            {
+              "productId": 8,
+              "name": "DNMX t-shirt",
+              "price": 625.25,
+              "quatity": 32,
+              "imageUrl": "../../../assets/Dnmx.webp",
+              "counter": 0,
+              "clickStatus": false
+            }
+          ]
+        },
+        {
+          "subCategoryId": 5,
+          "subCategoryName": "Women's Fashion",
+          "productList": [
+            {
+              "productId": 9,
+              "name": "Saree",
+              "price": 325.25,
+              "quatity": 27,
+              "imageUrl": "../../../assets/Saree.jpg",
+              "counter": 0,
+              "clickStatus": false
+            },
+            {
+              "productId": 10,
+              "name": "Larry Shirt",
+              "price": 235.62,
+              "quatity": 52,
+              "imageUrl": "../../../assets/men-1.png",
+              "counter": 0,
+              "clickStatus": false
+            }
+          ]
+        },
+        {
+          "subCategoryId": 6,
+          "subCategoryName": "Kid's Fashion",
+          "productList": [
+            {
+              "productId": 0,
+              "name": "Coming Soon",
+              "price": 0,
+              "quatity": 0,
+              "imageUrl": "../../../assets/men-1.png",
+              "counter": 0,
+              "clickStatus": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "categoryId": 3,
+      "categoryName": "Toys",
+      "subCategory": []
+    }
+  ],
+  "Cart": [],
+  "Checkout": [],
+  "Products": [
+    {
+      "productId": 1,
+      "name": "Samsung",
+      "price": 26315,
+      "quatity": 6,
+      "imageUrl": "../../../assets/Samsung-1.png",
+      "counter": 0,
+      "clickStatus": false
+    },
+    {
+      "productId": 2,
+      "name": "IPhone",
+      "price": 65625,
+      "quatity": 51,
+      "imageUrl": "../../../assets/IPhone-1.png",
+      "counter": 0,
+      "clickStatus": false
+    },
+    {
+      "productId": 3,
+      "name": "Mac Book Pro",
+      "price": 96512,
+      "quatity": 0,
+      "imageUrl": "../../../assets/MacBook.png",
+      "counter": 0,
+      "clickStatus": false
+    },
+    {
+      "productId": 4,
+      "name": "Dell",
+      "price": 59632,
+      "quatity": 32,
+      "imageUrl": "../../../assets/Dell.png",
+      "counter": 0,
+      "clickStatus": false
+    },
+    {
+      "productId": 5,
+      "name": "Heater",
+      "price": 200,
+      "quatity": 50,
+      "imageUrl": "../../../assets/h.png",
+      "counter": 0,
+      "clickStatus": false
+    },
+    {
+      "productId": 6,
+      "name": "Hair dryer",
+      "price": 315,
+      "quatity": 18,
+      "imageUrl": "../../assets/HairDyer.jpg",
+      "counter": 0,
+      "clickStatus": false
+    },
+    {
+      "productId": 7,
+      "name": "denim Shirt",
+      "price": 552,
+      "quatity": 20,
+      "imageUrl": "../../../assets/denimShirt.png",
+      "counter": 0,
+      "clickStatus": false
+    },
+    {
+      "productId": 8,
+      "name": "DNMX t-shirt",
+      "price": 625,
+      "quatity": 32,
+      "imageUrl": "../../../assets/Dnmx.png",
+      "counter": 0,
+      "clickStatus": false
+    },
+    {
+      "productId": 9,
+      "name": "Saree",
+      "price": 325,
+      "quatity": 27,
+      "imageUrl": "../../../assets/Saree.png",
+      "counter": 0,
+      "clickStatus": false
+    },
+    {
+      "productId": 10,
+      "name": "Larry Shirt",
+      "price": 235,
+      "quatity": 52,
+      "imageUrl": "../../../assets/LaryShirt.jpg",
+      "counter": 0,
+      "clickStatus": false
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+.homebar{
+    padding-left:230px;    
+}
+.homebar>button{
+    margin:44px;
+}
+button{
+    color: black;
+}

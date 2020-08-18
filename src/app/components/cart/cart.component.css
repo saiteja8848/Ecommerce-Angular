@@ -1,0 +1,15 @@
+table {
+    width: 20%;
+  }
+  .space{
+    flex:1;
+    justify-content: space-between;
+  } 
+
+  .deleteIcon{
+    cursor: pointer;
+  }
+
+  .checkout_btn{
+    margin-left: 90%;
+  }

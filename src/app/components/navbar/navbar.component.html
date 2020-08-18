@@ -1,0 +1,32 @@
+<mat-toolbar color="primary" class="homebar">
+    <button mat-raised-button routerLink='/home'>
+        <mat-icon>account_balance</mat-icon>
+        Home
+    </button>
+    <button mat-raised-button routerLink="/products">
+        <mat-icon>store</mat-icon>
+        Shop
+    </button>
+    <button mat-raised-button>
+        <mat-icon>backup_table</mat-icon>
+        Collection
+    </button>
+    <button mat-raised-button>
+        <mat-icon>account_circle</mat-icon>Contact
+    </button>
+    <button mat-raised-button [matMenuTriggerFor]="menu">
+        <mat-icon>supervised_user_circle</mat-icon>Follow Us
+    </button>
+    <mat-menu #menu="matMenu">
+        <button mat-menu-item> <a href="https://www.facebook.com/focusacademy/" target="_blank">Facebook</a>
+        </button>
+        <button mat-menu-item><a href="https://twitter.com/faceacad" target="_blank">Twitter</a></button>
+        <button mat-menu-item>
+            <a href="https://www.linkedin.com/school/faceprep/?originalSubdomain=in"
+                target="_blank">LinkedIn</a></button>
+    </mat-menu>
+
+
+
+
+</mat-toolbar>
